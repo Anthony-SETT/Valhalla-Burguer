@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Nerko One", cursive;
+    background: #000;
+    color: rgb(196, 196, 15);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    width: 120px;
+}
+
+.header-hamburger-info{
+    margin-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-hamburger-info h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.header-hamburger-info span {
+    text-transform: capitalize;
+}
+.menu {
+    height: 120%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin:  0 24px;
+    padding: 16px;
+
+}
+
+.menu-item {
+
+    margin-top: 24px;
+}
+
+.menu-item h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.menu-item-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item-description p {
+    font-size: 23px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.menu-item-description strong {
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: calc(100vh - 120px);
+}
+
+.drinks {
+    margin-left: 28px;
+    width: 100%;
+}
+
+.drinks-title {
+    height: 100%;
+    font-size: 30px;
+
+    margin-top: 38px;
+}
+
+.drinks-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drinks-item p {
+    color: white;
+    font-size: 28px;
+}
+
+.drinks-item strong {
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+}
